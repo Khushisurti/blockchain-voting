@@ -1,0 +1,89 @@
+/* Global Styling */
+body {
+   font-family: 'Poppins', sans-serif;
+   background: linear-gradient(to right, #e0eafc, #cfdef3);
+   margin: 0;
+   padding: 20px;
+ }
+ 
+ /* Container Styling */
+ .container {
+   max-width: 650px;
+   margin: auto;
+   background: #ffffff;
+   padding: 30px 25px;
+   border-radius: 15px;
+   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Title */
+ h1 {
+   text-align: center;
+   font-size: 28px;
+   color: #333;
+   margin-bottom: 30px;
+ }
+ 
+ /* Vote Buttons */
+ .vote-buttons {
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ 
+ .vote-buttons button {
+   background-color: #4a90e2;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   margin: 10px 8px;
+   padding: 12px 25px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background 0.3s ease, transform 0.2s ease;
+ }
+ 
+ .vote-buttons button:hover {
+   background-color: #357abd;
+   transform: translateY(-2px);
+ }
+ 
+ /* Validate Button */
+ #validateButton {
+   display: block;
+   margin: 0 auto 25px;
+   background-color: #27ae60;
+   color: white;
+   padding: 12px 30px;
+   font-size: 16px;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: background 0.3s ease, transform 0.2s ease;
+ }
+ 
+ #validateButton:hover {
+   background-color: #1e8449;
+   transform: scale(1.03);
+ }
+ 
+ /* Blockchain Display */
+ .chain-display {
+   background-color: #f9f9f9;
+   font-family: 'Courier New', Courier, monospace;
+   white-space: pre-wrap;
+   padding: 18px;
+   border-radius: 12px;
+   box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+   color: #2c3e50;
+   max-height: 400px;
+   overflow-y: auto;
+ }
+ 
+ /* Validation Result */
+ .validation-result {
+   margin-top: 20px;
+   font-weight: bold;
+   font-size: 18px;
+   text-align: center;
+ }
+ 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blockchain Voting System</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <h1>🗳️ Blockchain Voting</h1>
+    
+    <div class="vote-buttons">
+      <button onclick="castVote('Alice')">Vote Alice</button>
+      <button onclick="castVote('Bob')">Vote Bob</button>
+      <button onclick="castVote('Charlie')">Vote Charlie</button>
+    </div>
+
+    <button id="validateButton">✅ Validate Chain</button>
+
+    <div id="chainDisplay" class="chain-display"></div>
+    <div id="validationResult" class="validation-result"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
